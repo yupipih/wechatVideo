@@ -1,0 +1,72 @@
+.container {
+    height: 100%;
+    overflow: hidden;
+    background:linear-gradient(to bottom,#efdbff,#ffffff)
+}
+
+page {
+    height: 100%;
+    overflow: hidden;
+}
+
+.card {
+    width: 600rpx;
+    height: 800rpx;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 8px #aaa;
+    border-radius: 10rpx;
+}
+
+.card .name {
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 40rpx 0 30rpx;
+}
+
+.card .location {
+    font-size: 16px;
+    margin: 50rpx 0 40rpx;
+}
+
+.card .like-img {
+    width: 50rpx;
+    height: 45rpx;
+    margin: 30rpx 0 40rpx;
+}
+
+.card .cover {
+    width: 300rpx;
+    height: 360rpx;
+    margin: 60rpx 0 10rpx;
+}
+
+.school-sign-img {
+    width: 280rpx;
+    height: 440rpx;
+    position: absolute;
+    left: 320rpx;
+    top: 360rpx;
+}
+
+.allLikeView {
+    width: 100rpx;
+    height: 100rpx;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 30rpx;
+    box-shadow: 0px 2px 8px #aaa;
+    border-radius: 50rpx;
+    margin: 800rpx;
+}
+
+.allLikeView .all-like-img {
+    width: 40rpx;
+    height: 40rpx;
+}
+.canvas-style {
+  width: 100vh;
+  height: 280px;
+  border:1px solid red
+}

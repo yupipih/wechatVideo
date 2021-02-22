@@ -1,0 +1,23 @@
+<view class="container" >
+    <video id="myVideo" src="{{videoSrc}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <view style="text-align: center;margin-top: 10px">{{series}}</view>
+    <view class="videoPlayer">
+        <view style="margin-left: 30rpx;margin-bottom:30rpx">选择剧集：</view>
+        <view>
+            <button bindtap="changeVideo" class="page-body-button" type="primary" size="mini" wx:for="{{data.data}}" wx:key="i" wx:for-item="item" data-item="{{item}}">{{item.name}}</button>
+        </view>
+    </view>
+<!--    <view class="btn-area">-->
+<!--              <button bindtap="bindPlay" class="page-body-button" type="primary" size="mini">播放</button>-->
+<!--              <button bindtap="bindPause" class="page-body-button" type="primary" size="mini">暂停</button>-->
+<!--    </view>-->
+<!--    <view class="episode">-->
+<!--        <view style="margin-left: 30rpx;margin-bottom:30rpx">选择剧集：</view>-->
+<!--        <view>-->
+<!--            <button bindtap="bindPlay" class="page-body-button" type="primary" size="mini">第一集</button>-->
+<!--            <button bindtap="bindPlay" class="page-body-button" type="primary" size="mini">第一集</button>-->
+<!--            <button bindtap="bindPlay" class="page-body-button" type="primary" size="mini">第一集</button>-->
+<!--        </view>-->
+<!--    </view>-->
+
+</view>

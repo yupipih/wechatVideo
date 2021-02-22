@@ -1,0 +1,33 @@
+.container {
+    height: 100%;
+    overflow: hidden;
+}
+
+page {
+    height: 100%;
+    overflow: hidden;
+}
+.page-body-button {
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+/*.btn-area{*/
+/*    height:60rpx;*/
+/*}*/
+#myVideo{
+    height: 228px;
+}
+.videoPlayer{
+  width:100%;
+  margin-top: 30px;
+  padding-left:60px;
+    padding-right:60px;
+}
+/*.episode{*/
+/*    border:1px solid red;*/
+/*    width:100%;*/
+/*    height:100rpx;*/
+/*    margin-top: 30rpx;*/
+/*    margin-left:60rpx;*/
+/*    margin-right:60rpx*/
+/*}*/

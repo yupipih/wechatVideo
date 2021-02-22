@@ -1,0 +1,16 @@
+<view class="container" >
+<!--    <canvas id="myCanvas" canvas-id="myCanvas" style="width: 150px;height: 100px;"></canvas>-->
+<!--    {{color2}}-->
+    <view class="card" style="position: absolute; left:{{left1}}rpx; top:{{top1}}rpx; z-index:{{isFirstCard?2:1}}; opacity:{{isFirstCard?1:0}};" bindtouchstart="viewTouchInside" bindtouchmove="viewDidMove" bindtouchend="viewTouchUpDownInside" animation="{{animation1}}">
+        <image class="cover" src="{{cover1}}" mode="cover" bindtap="watchOnline" data-item="{{id1}}"></image>
+        <view class="name">{{name1}}</view>
+        <view class="location">{{actors1}}</view>
+        <image class="like-img" src="{{likeImgURL1}}" mode="cover" bindtap="likeImgDidClick"></image>
+    </view>
+    <view class="card" style="position: absolute; left:{{left2}}rpx; top:{{top2}}rpx; z-index:{{isFirstCard?1:2}}; opacity:{{isFirstCard?0:1}};" bindtouchstart="viewTouchInside" bindtouchmove="viewDidMove" bindtouchend="viewTouchUpDownInside" animation="{{animation2}}">
+        <image class="cover" src="{{cover2}}" mode="cover" bindtap="watchOnline" data-item="{{id2}}"></image>
+        <view class="name">{{name2}}</view>
+        <view class="location">{{actors2}}</view>
+        <image class="like-img" src="{{likeImgURL2}}" mode="cover" bindtap="likeImgDidClick"></image>
+    </view>
+</view>
